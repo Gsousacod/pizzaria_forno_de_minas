@@ -7,7 +7,7 @@
 }
 /*==============Nav bar=============*/
 header{
-    background:linear-gradient(to top, rgba(1, 0, 0, 0.7), rgba(1,0,0,0.8)), url(../img/pexels-pixabay-326333.jpg); 
+    background:linear-gradient(to top, rgba(1, 0, 0, 0.9), rgba(1,0,0,0.8)), url(../img/pexels-pixabay-326333.jpg); 
     background-size: cover;
     background-position: center center;
 }
@@ -38,7 +38,7 @@ nav.menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:linear-gradient(to top, rgba(1, 0, 0, 0.7), rgba(1,0,0,0.8)), url(../img/pexels-pixabay-326333.jpg); 
+    background:linear-gradient(to top, rgba(1, 0, 0, 1), rgba(1,0,0,0.9)), url(../img/pexels-pixabay-326333.jpg); 
     background-size: cover;
     background-position: center center;
 }
@@ -172,21 +172,66 @@ section.about{
     background-size: cover;
     background-position: center center;
 }
-.container-about{
+.content{
     max-width: 1200px;
     margin: auto;
 }
-.container-about h2{
+h2{
     text-align: center;
     padding: 20px;
 }
 .content-about{
     display: flex;
 }
+.img-about{
+    width: 50%;
+}
+img{
+    width: 100%;
+}
 .text-about{
+    padding: 10px;
+    width: 50%;
     margin-top: 40px;
 }
-  
+.to-locate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+.to-locate hr{
+    width: 600px;
+    height: 2px;
+    background-color: #191c03;
+    margin-bottom: 70px;
+}
+.to-locate .grid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.to-locate li{
+    list-style: none;
+    height: 350px;
+    padding: 20px;
+    border-radius: 4px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+.to-locate .grid li.small{
+    flex-basis: 40%;
+}
+.to-locate .grid li.large{
+    flex-basis: 60%;
+}
+@media (max-width: 700px){
+    .to-locate .grid li.small, .to-locate .grid li.large{
+        flex-basis: 100% ;
+    }
+}
+/*=======================*/
 @media (max-width: 768px) {
     nav.menu .logo img{
         width: 100px;
