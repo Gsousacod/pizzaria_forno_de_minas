@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display-swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*==============Nav bar=============*/
+header{
+    background-color: #000;
+}
+.header-contact{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    
+}
+.header-contact li{
+    color: #D2691E;
+    padding: 10px;
+    list-style: none;
+}
+nav.menu .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav.menu{
+    position:sticky;
+    z-index: 10;
+    font-family: 'Chivo Mono',monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+}
+nav.menu ul{
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+nav.menu .container ul li{
+    list-style: none;
+}
+nav.menu .logo img{
+    width: 120px;
+}
+
+.menu a {
+    color: #D2691E;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.menu:hover li a:not(:hover) {
+    color: #006400;
+    opacity: 0.9;
+    filter: blur(1px);
+}
+  
+  
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+  
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+  
+@media (max-width: 768px) {
+    nav.menu .logo img{
+        width: 100px;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    nav.menu .container{
+        flex-direction: column;
+    }
+    nav.menu .container ul{
+      display: none;
+      position: absolute;
+      top: 150px;
+      left: 0;
+      background-color: #333;
+      width: 100%;
+      margin: 0;
+      padding: 10px 0;
+    }
+  
+    .menu .container li {
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .menu .container a {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      padding: 10px;
+    }
+  
+    .menu.active .container ul{
+      display: block;
+      color: blue;
+    }
+  }
