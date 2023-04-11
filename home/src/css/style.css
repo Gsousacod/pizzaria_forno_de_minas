@@ -7,7 +7,9 @@
 }
 /*==============Nav bar=============*/
 header{
-    background-color: #000;
+    background:linear-gradient(to top, rgba(1, 0, 0, 0.7), rgba(1,0,0,0.8)), url(../img/pexels-pixabay-326333.jpg); 
+    background-size: cover;
+    background-position: center center;
 }
 .header-contact{
     max-width: 1200px;
@@ -36,7 +38,9 @@ nav.menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000;
+    background:linear-gradient(to top, rgba(1, 0, 0, 0.7), rgba(1,0,0,0.8)), url(../img/pexels-pixabay-326333.jpg); 
+    background-size: cover;
+    background-position: center center;
 }
 nav.menu ul{
     text-transform: uppercase;
@@ -163,8 +167,10 @@ nav.menu .logo img{
 }
 /*========================*/
 section.about{
-    color: #333;
-    background-color: #fff;
+    color: #D2691E;
+    background:linear-gradient(to top, rgba(1, 0, 0, 0.7), rgba(1,0,0,0.8)), url(../img/pexels-pixabay-326333.jpg); 
+    background-size: cover;
+    background-position: center center;
 }
 .container-about{
     max-width: 1200px;
