@@ -170,6 +170,16 @@ section.about{
     max-width: 1200px;
     margin: auto;
 }
+.container-about h2{
+    text-align: center;
+    padding: 20px;
+}
+.content-about{
+    display: flex;
+}
+.text{
+    margin-top: 40px;
+}
   
 @media (max-width: 768px) {
     nav.menu .logo img{
