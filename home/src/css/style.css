@@ -184,15 +184,15 @@ h2{
     display: flex;
 }
 .img-about{
-    width: 50%;
+    width: 40%;
 }
 img{
     width: 100%;
 }
 .text-about{
     padding: 10px;
-    width: 50%;
-    margin-top: 40px;
+    width: 60%;
+    margin: 40px 0 40px 0;
 }
 .to-locate{
     display: flex;
