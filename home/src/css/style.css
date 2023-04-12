@@ -288,6 +288,16 @@ img{
 footer{
     display: flex;
     flex-direction: column;
+    
+}
+footer .copy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+footer .copy p{
+    font-size: 1.0rem;
 }
 
 footer ul {
