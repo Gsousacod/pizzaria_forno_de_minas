@@ -285,11 +285,16 @@ img{
     -webkit-text-fill-color: transparent;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+}
 
 footer ul {
     position: relative;
     display: flex;
     gap: 25px;
+    justify-content: center;
 }
 
 footer ul li{
