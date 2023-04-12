@@ -62,7 +62,7 @@ nav.menu .logo img{
     padding: 10px;
 }
 .menu:hover li a:not(:hover) {
-    color: #8B4513;
+    color: #25d366;
     opacity: 0.9;
     filter: blur(1px);
 }
