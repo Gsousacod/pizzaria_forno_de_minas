@@ -7,7 +7,7 @@
 }
 /*==============Nav bar=============*/
 header{
-    background:linear-gradient(to top, rgba(1, 0, 0, 0.9), rgba(1,0,0,0.8)), url(../img/pexels-pixabay-326333.jpg); 
+    background:linear-gradient(to top, rgba(1, 0, 0, 0.9), rgba(1,0,0,0.9)), url(../img/pexels-pixabay-326333.jpg); 
     background-size: cover;
     background-position: center center;
 }
@@ -16,7 +16,7 @@ header{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #fff;
+   border-bottom: 1px solid #fff;
     
 }
 .header-contact li{
@@ -168,12 +168,12 @@ nav.menu .logo img{
 /*========================*/
 section.about{
     color: #D2691E;
-    background:linear-gradient(to top, rgba(1, 0, 0, 0.7), rgba(1,0,0,0.8)), url(../img/pexels-pixabay-326333.jpg); 
-    background-size: cover;
-    background-position: center center;
+    
 }
 section.about h2{
-    color: #fff;
+    color: #999;
+    text-align: center;
+    padding: 20px;
 }
 .content{
     max-width: 1200px;
@@ -181,8 +181,9 @@ section.about h2{
 }
 h2{
     text-align: center;
-    padding: 20px;
+    padding: 20px; 
 }
+
 .content-about{
     display: flex;
 }
@@ -208,26 +209,30 @@ img{
     padding: 5px 15px 5px 15px;
 }
 .to-locate{
+    color: #999;
+    background:linear-gradient(to top, rgba(1, 0, 0, 0.7), rgba(1,0,0,0.8)), url(../img/pexels-pixabay-326333.jpg); 
+    background-size: cover;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 100px 50px;
 }
 .to-locate hr{
+    margin: auto;
     width: 600px;
-    height: 2px;
     background-color: #191c03;
-    margin-bottom: 70px;
 }
 .to-locate .grid{
+    margin-top: 50px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 .to-locate li{
+    border: 1px solid #fff;
     list-style: none;
     height: 350px;
-    padding: 20px;
     border-radius: 4px;
     background-clip: content-box;
     background-size: cover;
@@ -292,7 +297,7 @@ img{
 
   }
 
-  footer{
+footer{
     display: flex;
     justify-content: center;
     background-color: black;
@@ -301,7 +306,7 @@ img{
 
 .text_footer {
     text-transform: uppercase;
-    background: linear-gradient(to right, green, white, red);
+    background: linear-gradient(to right, green,#525252, red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
