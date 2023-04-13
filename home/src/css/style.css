@@ -282,6 +282,14 @@ img{
       display: block;
       color: blue;
     }
+    .about{
+        width: 100%;
+    }
+    .content-about{
+        flex-direction: column;
+        
+    }
+
   }
 
   footer{
